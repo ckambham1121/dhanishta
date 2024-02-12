@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="51.794" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="Title of your feature" name="Facebook Login" time="8.478">
+<system-out><![CDATA[
+Given Launch the facebook portal............................................passed
+And provide my login credentials............................................passed
+When I complete login process...............................................passed
+And Go Home with a cup of coffee............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Facebook Login with Parameterized values" time="10.274">
+<system-out><![CDATA[
+Given Launch the facebook portal............................................passed
+And provide my login credentials "username" and "password"..................passed
+When I complete login process...............................................passed
+And Go Home with a cup of coffee............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Facebook Login with Parameterized array values - Example #1.1" time="10.785">
+<system-out><![CDATA[
+Given Launch the facebook portal............................................passed
+And provide my login credentials "chrisk" and "1234"........................passed
+When I complete login process...............................................passed
+And Go Home with a cup of coffee............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Facebook Login with Parameterized array values - Example #1.2" time="11.324">
+<system-out><![CDATA[
+Given Launch the facebook portal............................................passed
+And provide my login credentials "indu" and "12345".........................passed
+When I complete login process...............................................passed
+And Go Home with a cup of coffee............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Facebook Login with Parameterized array values - Example #1.3" time="10.751">
+<system-out><![CDATA[
+Given Launch the facebook portal............................................passed
+And provide my login credentials "navya" and "123456".......................passed
+When I complete login process...............................................passed
+And Go Home with a cup of coffee............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
